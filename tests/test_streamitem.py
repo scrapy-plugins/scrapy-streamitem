@@ -69,13 +69,15 @@ METADATA_FIELDS = [
 
 def load_item_from_values(values):
     request = Request(values['url'])
-    response = TextResponse(url=values['url'],
-                            status=values['http_status'],
-                            body=values.get('body', ''),
-                            request=request,
-                            headers={
-                                'Content-Type': values['content_type'],
-                            })
+    response = TextResponse(
+        url=values['url'],
+        status=values['http_status'],
+        body=values.get('body', ''),
+        request=request,
+        headers={
+            'Content-Type': values['content_type'],
+        }
+    )
     if 'redirect_urls' in values:
         response.meta['redirect_urls'] = values['redirect_urls']
     loader = StreamItemLoader(item=StreamItem(), response=response)
