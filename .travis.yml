@@ -12,10 +12,10 @@ install:
 script: tox
 deploy:
   provider: pypi
-  user: gatufo
+  user: scrapinghub
   distributions: sdist bdist_wheel
   password:
-    secure: bfz2enDE6Ukeq/WZx0Om04qKidMx2xKF168Me8RlxZnFMSKZsDODo2nbn9mizYYa7/NUviuXknjW+RVhZEPp4K9kHvbNXFOfwoF2yruohro04Y8se871o8lmpiZgiN4Y0wXr0XVrDDK/KoQZJfz7/ZFPgMKAmwEWHPp2bA96zoA=
+    secure: Ttqyx+X/WKjXiZ3AH8rG1Tbu0mRFufR0B8zJtsxVGtLYYyBnQCKLkkdfN464KTGuh9oHW0airwUOOf3Wlhjuuc705QN73kUsZ0g2VVqW2M0/9mRED1E64npDvXWQWYTahNAQNL9GltT6F/ARO1fFg34EK6+2ksHcZ7hVn/j8H3w=
   on:
     branch: master
     repo: scrapinghub/scrapy-streamitem
