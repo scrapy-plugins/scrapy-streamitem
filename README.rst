@@ -70,8 +70,8 @@ You can also add additional info to your item using the ``metadata`` field.
 For example from a Item pipeline::
 
     def process_item(self, item, spider):
-      item['metadata']['my_custom_field'] = 'whatever'
-      return item
+         item['metadata']['my_custom_field'] = 'whatever'
+         return item
 
 
 Requirements
