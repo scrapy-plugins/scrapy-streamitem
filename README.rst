@@ -15,10 +15,10 @@ Scrapy support for working with streamcorpus_ StreamItems_.
 
 Includes the following:
 
-- **StreamItem**: Scrapy Stream Item definition. (``streamitem.items.StreamItem``)
-- **StreamItemLoader**: Scrapy Itemloader for ``StreamItem``. (``streamitem.loaders.StreamItemLoader``)
-- **StreamItemExporter**: Scrapy ItemExporter to .sc file. (``streamitem.exporters.StreamItemExporter``)
-- **StreamItemFileFeedStorage**: Scrapy FileFeedStorage to handle .sc files. (``streamitem.storages.StreamItemFileFeedStorage``)
+- **StreamItem**: Scrapy Stream Item definition. ``streamitem.items.StreamItem``
+- **StreamItemLoader**: Scrapy Itemloader for ``StreamItem``. ``streamitem.loaders.StreamItemLoader``
+- **StreamItemExporter**: Scrapy ItemExporter to .sc file. ``streamitem.exporters.StreamItemExporter``
+- **StreamItemFileFeedStorage**: Scrapy FileFeedStorage to handle .sc files. ``streamitem.storages.StreamItemFileFeedStorage``
 
 Stream Items
 ============
